@@ -110,6 +110,7 @@
   <!-- project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-7.0" groups="pdk" />
   <!-- project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" /> -->
+  <project path="external/fec" name="platform/external/fec" remote="aosp" />
   <!-- project path="external/fio" name="platform/external/fio" /> -->
   <!-- project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-7.0" groups="pdk" /> -->
   <!-- project path="external/fonttools" name="platform/external/fonttools" /> -->
@@ -433,6 +434,7 @@
   <!-- project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" /> -->
   <!-- project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" /> -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" remote="asop" />
   <!-- project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" /> -->
   <!-- project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" /> -->
   <!-- project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" /> -->
