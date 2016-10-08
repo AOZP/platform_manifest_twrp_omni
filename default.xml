@@ -26,6 +26,7 @@
 
   <project path="build" name="android_build" remote="omnirom" revision="android-7.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build/kati" name="CyanogenMod/android_build_kati" remote="github" revision="cm-14.0" groups="pdk" > 
   </project>
 
   <project path="android" name="android" remote="omnirom" revision="android-7.0" />
